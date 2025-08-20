@@ -1,0 +1,12 @@
+includes:
+#include <iostream> - standard for input/output
+
+namespaces:
+using namespace std; - standard namespace for cin and cout etc.
+(if not using namespace, put "std::cin" or std:cout")
+
+using cout:
+cout << "String of text" << endl; - prints whatever string and then moves the line down
+for computations:
+cout << (10.5 + 2 * 3) / (45 - 3.5) << endl; - prints the result of the math and moves the line down
+(do not use quotations, if usings quotations it will print as a string and not compute)
