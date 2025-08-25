@@ -10,3 +10,7 @@ cout << "String of text" << endl; - prints whatever string and then moves the li
 for computations:
 cout << (10.5 + 2 * 3) / (45 - 3.5) << endl; - prints the result of the math and moves the line down
 (do not use quotations, if usings quotations it will print as a string and not compute)
+
+built-in functions:
+sizof() -> returns the number of bytes of a variable type
+    cout << "The size of an integer variable is " << sizeof(int) << " bytes." << endl;
