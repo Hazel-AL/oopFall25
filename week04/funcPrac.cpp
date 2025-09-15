@@ -53,6 +53,5 @@ string swapCase(const string& n)
             newString += n[i];
         }
     }
-    //newString[newString.length()+1] = '\0';
     return newString;
 }
